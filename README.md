@@ -1,7 +1,7 @@
 ### Description
 
 This is a repository to illustrate a potential bug in `syncpack` when using the `lint-semver-ranges` command with a
-configuration file that includes a conflicting policies in the `versionGroup`.
+configuration file that includes a matching dependency policies in the `versionGroup`.
 
 Vice-versa, the `list-mismatches` command also seems to be affected by the `semverGroup` policies.
 
